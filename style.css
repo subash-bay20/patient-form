@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-.header h2{
+.header h2 {
   font-size: 26px;
 }
 
@@ -75,18 +75,22 @@ input[type="radio"] {
   width: auto;
   margin-right: 8px;
 }
+
 input[type="date"] {
   width: 100%;
   margin-right: 8px;
 }
+
 .radio-group {
   display: flex;
   flex-direction: column;
 }
 
-span{
-color: red;
+span {
+  color: red;
+  font-size: 13px;
 }
+
 h3 {
   margin: 20px 0 10px;
   font-size: 18px;
@@ -94,12 +98,12 @@ h3 {
 }
 
 button {
-    display: grid;
-      margin: auto;
-      background-color: rgb(47, 0, 255);
-      font-size: 20px;
-      width: 150px;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
+  display: grid;
+  margin: auto;
+  background-color: rgb(47, 0, 255);
+  font-size: 20px;
+  width: 150px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
