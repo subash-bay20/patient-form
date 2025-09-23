@@ -32,7 +32,7 @@ button.addEventListener('click', () => {
     let days = new Date().getDate();
     let day = (days < 10) ? `0${days}` : `${days}`;
     let today = `${year}-${month}-${day}`;
-  if (dob.value == today) {
+  if (dob.value > today) {
        dob.nextElementSibling.innerHTML = `Enter correct DOB please`;
   }
   
